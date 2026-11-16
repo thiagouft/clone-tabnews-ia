@@ -5,18 +5,31 @@ body {
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
+  color: #1f2328;
+  background: #fff;
 }
 
-ul {
-  margin: 0;
+main {
+  max-width: 640px;
   padding: 16px;
-  list-style: none;
   text-align: center;
-  font-size: clamp(2rem, 8vw, 5rem);
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
-li + li {
-  margin-top: 0.5em;
+h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  margin: 0 0 0.5em;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.total strong {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #0969da;
+  font-weight: bold;
 }
